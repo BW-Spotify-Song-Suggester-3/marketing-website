@@ -65,15 +65,14 @@ html, body {
 
 .header-section .navigation a {
     font-size: 4rem;
-    width: 100%;
+    width: 90%;
 }
 
 .navigation {
-
     display: flex;
     justify-content: center;
-    margin: 8px 0;
-
+    margin: 8px auto;
+    width: 90%;
 }
 
 a.nav-button {
@@ -102,12 +101,22 @@ a.nav-button:hover {
 .ourTeam-section {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .ourTeam-section .teammate-box {
     display: flex;
     flex-direction: column;
+    width: 31%;
+
 }
+
+.ourTeam-section .teammate-box .teammate-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
 
 
 /************* Footer *************/
