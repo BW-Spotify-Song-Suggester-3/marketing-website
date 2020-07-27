@@ -99,6 +99,17 @@ a.nav-button:hover {
 
 /************* Body *************/
 
+.ourTeam-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ourTeam-section .teammate-box {
+    display: flex;
+    flex-direction: column;
+}
+
+
 /************* Footer *************/
 
 
