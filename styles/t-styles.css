@@ -49,17 +49,47 @@ table {
 
 /************* General *************/
 
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
 
 html, body {
     height: 100%;
     font-family: 'Shadows Into Light', cursive;
 	font-size: 62.5%;
-	color: #313335;
 }
 
-h1{
-	font-size: 2.6rem;
+.header-section .navigation a {
+	font-size: 4rem;
 }
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+a.nav-button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Shadows Into Light', cursive;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 1px solid #555555;
+}
+
+a.nav-button:hover {
+    background-color: #555555;
+    color: white;
+  }
 
 /************* NAV BAR *************/
 
