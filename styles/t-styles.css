@@ -51,14 +51,15 @@ table {
 
 .container {
     width: 100%;
-    max-width: 1080px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 html, body {
     height: 100%;
     font-family: 'Shadows Into Light', cursive;
-	font-size: 62.5%;
+    font-size: 62.5%;
+    color: #313335;
 }
 
 /************* NAV BAR *************/
@@ -66,19 +67,19 @@ html, body {
 .header-section .navigation a {
     font-size: 4rem;
     width: 90%;
+    color: #313335;
 }
 
 .navigation {
     display: flex;
     justify-content: center;
     margin: 8px auto;
-    width: 90%;
+    width: 75%;
 }
 
 a.nav-button {
     background-color: white;
-    border: none;
-    color: black;
+    color: #313335;
     padding: 8px;
     text-align: center;
     text-decoration: none;
@@ -86,12 +87,12 @@ a.nav-button {
     display: inline-block;
     transition-duration: 0.4s;
     cursor: pointer;
-    border: 1px solid #555555;
+    border: 1px solid #313335;
     width: 90%;
 }
 
 a.nav-button:hover {
-    background-color: #555555;
+    background-color: #313335;
     color: white;
   }
 
@@ -102,21 +103,29 @@ a.nav-button:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 8px 0;
 }
 
 .ourTeam-section .teammate-box {
     display: flex;
     flex-direction: column;
-    width: 31%;
-
+    width: 27%;
+    margin: 0 auto;
 }
 
 .ourTeam-section .teammate-box .teammate-img {
     width: 100%;
     height: auto;
     border-radius: 50%;
+    margin: 8px 0;
 }
 
+.ourTeam-section .teammate-box .about-me {
+    font-size: 2.2rem;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    margin: 8px 0;
+}
 
 
 /************* Footer *************/
