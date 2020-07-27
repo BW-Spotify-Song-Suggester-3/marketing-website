@@ -61,15 +61,19 @@ html, body {
 	font-size: 62.5%;
 }
 
+/************* NAV BAR *************/
+
 .header-section .navigation a {
-	font-size: 4rem;
+    font-size: 4rem;
+    width: 90%;
 }
 
 .navigation {
-    width: 100%;
+
     display: flex;
     justify-content: center;
-    margin-top: 8px;
+    margin: 8px 0;
+
 }
 
 a.nav-button {
@@ -91,7 +95,6 @@ a.nav-button:hover {
     color: white;
   }
 
-/************* NAV BAR *************/
 
 /************* Body *************/
 
