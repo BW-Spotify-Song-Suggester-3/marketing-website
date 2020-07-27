@@ -65,7 +65,7 @@ html, body {
 
 .header-section .navigation a {
     font-size: 4rem;
-    width: 90%;
+    width: 100%;
 }
 
 .navigation {
@@ -88,6 +88,7 @@ a.nav-button {
     transition-duration: 0.4s;
     cursor: pointer;
     border: 1px solid #555555;
+    width: 90%;
 }
 
 a.nav-button:hover {
