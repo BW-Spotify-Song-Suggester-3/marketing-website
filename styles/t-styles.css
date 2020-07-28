@@ -70,16 +70,17 @@ html, body {
 }
 
 .header-section .navigation a {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #313335;
+    width: 100%;
 }
 
 .navigation {
     display: flex;
     justify-content: center;
+    /* padding: 8px 0; */
     padding: .8rem 0;
     margin: 0 auto;
-    width: 75%;
 }
 
 a.nav-button {
@@ -94,7 +95,6 @@ a.nav-button {
     cursor: pointer;
     border: 1px solid #313335;
     width: 90%;
-    border-radius: 18%;
 }
 
 a.nav-button:hover {
@@ -102,8 +102,68 @@ a.nav-button:hover {
     color: white;
   }
 
+/************* About Body *************/
 
-/************* Body *************/
+.about-welcome-section {
+    background: url(img/tableMusic.jpg) no-repeat center center fixed; 
+    background-size: cover; 
+    height: 100%;
+    padding: 1rem;
+    /* overflow: hidden; */
+    background-attachment: scroll;
+    margin: 0 auto;  
+    /* filter: brightness(30%); */
+    display: flex;
+    justify-content: center;
+} 
+
+.about-welcome-section .about-welcome-box {
+    padding: 30rem 15% 30rem 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-welcome-section .about-welcome-box #about-header {
+    font-size: 5.5rem;
+    color: #63CB5D;
+    /* filter: brightness(100%); */
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.about-welcome-section .about-welcome-box #about-text {
+    font-size: 3.4rem;
+    color: #ffffff;
+    text-align: right;
+    margin: 1rem 0;
+}
+
+.about-welcome-section .about-welcome-box #about-solution {
+    font-size: 3.4rem;
+    color: #ffffff;
+    text-align: right;
+    margin: 1rem 0 0;
+}
+
+.about-section {
+    background-color: #d9d9d9;
+    padding: 4.8rem 0;
+}
+
+.about-section .about-box {
+    padding: 2.4rem 30% 0 5%;
+}
+
+.about-section .about-box .about-box-headers {
+    font-size: 4.2rem;
+}
+
+.about-section .about-box li {
+    font-size: 2.3rem;
+}
+
+
+/************* ourTeam Body *************/
 .welcome-section {
     background: url(img/recStudio.jpg) no-repeat center center fixed; 
     background-size: cover; 
@@ -117,10 +177,8 @@ a.nav-button:hover {
     justify-content: center;
 } 
 
-
-
 .welcome-section .welcome-text {
-    padding: 30rem 0;
+    padding: 38rem 0;
 }
 
 .welcome-section .welcome-text #ourTeam-header {
