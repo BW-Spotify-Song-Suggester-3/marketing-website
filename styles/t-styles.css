@@ -51,7 +51,7 @@ table {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
 }
 
@@ -64,16 +64,21 @@ html, body {
 
 /************* NAV BAR *************/
 
+.header-section {
+    background-color: #313335;
+    width: 100%;
+}
+
 .header-section .navigation a {
     font-size: 4rem;
-    width: 90%;
     color: #313335;
 }
 
 .navigation {
     display: flex;
     justify-content: center;
-    margin: 8px auto;
+    padding: 8px 0;
+    margin: 0 auto;
     width: 75%;
 }
 
@@ -89,6 +94,7 @@ a.nav-button {
     cursor: pointer;
     border: 1px solid #313335;
     width: 90%;
+    border-radius: 18%;
 }
 
 a.nav-button:hover {
@@ -98,12 +104,37 @@ a.nav-button:hover {
 
 
 /************* Body *************/
+.welcome-section {
+    background: url(img/recStudio.jpg) no-repeat center center fixed; 
+    background-size: cover; 
+    height: 100%;
+    padding: 1rem;
+    /* overflow: hidden; */
+    background-attachment: scroll;
+    margin: 0 auto;  
+    /* filter: brightness(30%); */
+    display: flex;
+    justify-content: center;
+} 
+
+
+
+.welcome-section .welcome-text {
+    padding: 30rem 0;
+}
+
+.welcome-section .welcome-text #ourTeam-header {
+    font-size: 3.4rem;
+    color: #ffffff;
+    /* filter: brightness(100%); */
+    text-align: center;
+}
 
 .ourTeam-section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 8px 0;
+    background-color: #d9d9d9;
 }
 
 .ourTeam-section .teammate-box {
@@ -114,10 +145,10 @@ a.nav-button:hover {
 }
 
 .ourTeam-section .teammate-box .teammate-img {
-    width: 100%;
+    width: 70%;
     height: auto;
     border-radius: 50%;
-    margin: 8px 0;
+    margin: 8px auto;
 }
 
 .ourTeam-section .teammate-box .about-me {
@@ -129,7 +160,16 @@ a.nav-button:hover {
 
 
 /************* Footer *************/
-
+footer {
+	line-height: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* margin: 1rem 1rem 0 1rem; */
+    padding: 1rem;
+    color: white;
+    background-color: #313335;
+}
 
 /************* 1000 Pixels *************/
 
