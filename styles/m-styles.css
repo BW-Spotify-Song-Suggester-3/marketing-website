@@ -191,36 +191,6 @@ footer {
 }
 
 
-/************* 1000 Pixels *************/
-
-@media(max-width: 1000px){
-
-
-
-
-
-
-
-
-	/* Coming Soon Page */
-
-	/* Hero Image */
-	.welcome-text {
-		width: 85%;
-	}
-}
-
-/************* 500 Pixels *************/
-
-@media(max-width: 500px){
-	
-	
-
-
-	/* Coming Soon Page */
-
-	
-}
 
 
 /************* Coming Soon PAGE *************/
@@ -234,10 +204,8 @@ footer {
     background-size: cover; 
     height: 100%;
 	padding: 1rem;
-    /* overflow: hidden; */
     background-attachment: scroll;
     margin: 0 auto;  
-    /* filter: brightness(30%); */
     display: flex;
     justify-content: center;
 } 
@@ -275,4 +243,39 @@ footer {
 
 #CS-footer {
 	border-top: 1px solid black;
+}
+
+
+/************* 1000 Pixels *************/
+
+@media(max-width: 1000px){
+
+
+
+
+
+
+
+
+	/* Coming Soon Page */
+
+	/* Hero Image */
+	.welcome-text {
+		width: 85%;
+	}
+}
+
+/************* 500 Pixels *************/
+
+@media(max-width: 500px){
+	
+	
+
+
+	/* Coming Soon Page */
+
+	.welcome-section .welcome-text {
+		padding: 12rem 0;
+	}
+
 }
