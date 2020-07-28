@@ -52,10 +52,10 @@ table {
 /************* General *************/
 
 
-* { 
+/* * { 
     outline: 1px solid red;
     outline-offset: -1px;
-}
+} */
 
 h1 {
 	font-size: 3.6rem;
@@ -73,7 +73,7 @@ p {
 }
 
 li {
-	font-size: 1.6;
+	font-size: 1.6rem;
 	line-height: 2.8rem;
 	list-style: disc;
 }
@@ -99,10 +99,12 @@ body {
 
 
 /************* NAV BAR *************/
+.nav-bar {
+	width: 100%;
+}
 
-
-.header-section .navigation a {
-    font-size: 4rem;
+.navigation a {
+    font-size: 3rem;
     width: 100%;
 }
 
@@ -126,7 +128,7 @@ a.nav-button {
     transition-duration: 0.4s;
     cursor: pointer;
     border: 1px solid #555555;
-    width: 90%;
+    width: 100%;
 }
 
 a.nav-button:hover {
@@ -144,10 +146,8 @@ a.nav-button:hover {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 100%;
-	width: 99%;
-	padding: 1rem;
-    height: 100%;
+    widows: 1080px;
+    height:875px;
 	overflow: hidden;
 	background-repeat: no-repeat;
 	margin: 0 auto;
@@ -250,9 +250,28 @@ footer {
 
 @media(max-width: 1000px){
 
+	/* Landing Page */
 
+	.callToAction {
+		width: 98%;
+	}
+	.callToAction-container {
+		display: flex;
+		flex-direction: column;
+		width: 35%;
+		padding: 1rem;
+		margin: 15rem 1rem 40rem 5rem;
+		text-align: center;
+	}
 
+	.callToAction-container h1 {
+		line-height: 4.5rem;
+	}
 
+	.navigation a {
+		font-size: 2rem;
+		width: 100%;
+	}
 
 
 
@@ -269,6 +288,40 @@ footer {
 
 @media(max-width: 500px){
 	
+	/* Landing Page */
+
+	/* Nav Bar */
+
+	.navigation {
+		margin: 0 auto;
+	}
+
+	.navigation a {
+		font-size: 2rem;
+		width: 100%;
+	}
+	
+	/* Main Content */
+
+	.callToAction {
+		width: 95%;
+	}
+
+	.callToAction-container {
+		display: flex;
+		flex-direction: column;
+		width: 12%;
+		padding: 1rem;
+		margin: 10rem 1rem 40rem 5rem;
+		text-align: center;
+	}
+
+	.callToAction-container a button {
+		padding: 0 5rem;
+		text-align: center;
+		
+	}
+
 	
 
 
