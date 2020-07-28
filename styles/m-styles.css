@@ -73,9 +73,9 @@ p {
 }
 
 li {
-	font-size: 1.6rem;
+	font-size: 2rem;
 	line-height: 2.8rem;
-	list-style: none;
+	list-style: disc;
 }
 
 .container {
@@ -191,8 +191,6 @@ footer {
 }
 
 
-
-
 /************* Coming Soon PAGE *************/
 
 
@@ -237,6 +235,9 @@ footer {
 
 .coming-soon-MC-container ul {
 	margin-bottom: 3rem;
+}
+.coming-soon-MC-container ul li {
+	text-align: left;
 }
 
 /* Footer */
@@ -321,9 +322,6 @@ footer {
 		text-align: center;
 		
 	}
-
-	
-
 
 	/* Coming Soon Page */
 
