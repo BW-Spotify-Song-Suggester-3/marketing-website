@@ -70,22 +70,22 @@ html, body {
 }
 
 .header-section .navigation a {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #313335;
+    width: 100%;
 }
 
 .navigation {
     display: flex;
     justify-content: center;
-    padding: 8px 0;
+    /* padding: 8px 0; */
     margin: 0 auto;
-    width: 75%;
 }
 
 a.nav-button {
     background-color: white;
     color: #313335;
-    padding: 8px;
+    padding: .8rem;
     text-align: center;
     text-decoration: none;
     font-family: 'Shadows Into Light', cursive;
@@ -94,7 +94,6 @@ a.nav-button {
     cursor: pointer;
     border: 1px solid #313335;
     width: 90%;
-    border-radius: 18%;
 }
 
 a.nav-button:hover {
@@ -102,8 +101,35 @@ a.nav-button:hover {
     color: white;
   }
 
+/************* About Body *************/
 
-/************* Body *************/
+.about-welcome-section {
+    background: url(img/tableMusic.jpg) no-repeat center center fixed; 
+    background-size: cover; 
+    height: 100%;
+    padding: 1rem;
+    /* overflow: hidden; */
+    background-attachment: scroll;
+    margin: 0 auto;  
+    /* filter: brightness(30%); */
+    display: flex;
+    justify-content: center;
+} 
+
+.about-welcome-section .about-welcome-text {
+    padding: 38rem 0;
+}
+
+.about-welcome-section .about-welcome-text #about-header {
+    font-size: 3.4rem;
+    color: #ffffff;
+    /* filter: brightness(100%); */
+    text-align: center;
+}
+
+
+
+/************* ourTeam Body *************/
 .welcome-section {
     background: url(img/recStudio.jpg) no-repeat center center fixed; 
     background-size: cover; 
@@ -117,10 +143,8 @@ a.nav-button:hover {
     justify-content: center;
 } 
 
-
-
 .welcome-section .welcome-text {
-    padding: 30rem 0;
+    padding: 38rem 0;
 }
 
 .welcome-section .welcome-text #ourTeam-header {
