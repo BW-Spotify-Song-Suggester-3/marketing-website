@@ -71,22 +71,18 @@ html, body {
 
 .header-section .navigation a {
     font-size: 3rem;
-    color: #313335;
     width: 100%;
 }
 
 .navigation {
     display: flex;
     justify-content: center;
-    /* padding: 8px 0; */
-    padding: .8rem 0;
     margin: 0 auto;
 }
 
 a.nav-button {
     background-color: white;
     color: #313335;
-    padding: .8rem;
     text-align: center;
     text-decoration: none;
     font-family: 'Shadows Into Light', cursive;
