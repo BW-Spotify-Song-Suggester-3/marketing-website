@@ -116,6 +116,7 @@ a.nav-button:hover {
 .about-welcome-section .about-welcome-box {
     padding: 30rem 15% 30rem 35%;
     display: flex;
+    height: 100%;
     flex-direction: column;
 }
 
@@ -183,7 +184,7 @@ a.nav-button:hover {
 } 
 
 .welcome-section .welcome-text {
-    padding: 42rem 0;
+    padding: 39rem 0;
 }
 
 .welcome-section .welcome-text #ourTeam-header {
