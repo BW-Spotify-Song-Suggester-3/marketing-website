@@ -59,7 +59,7 @@ html, body {
     height: 100%;
     font-family: 'Shadows Into Light', cursive;
     font-size: 62.5%;
-    color: #313335;
+    color: black;
 }
 
 /************* NAV BAR *************/
@@ -71,22 +71,18 @@ html, body {
 
 .header-section .navigation a {
     font-size: 3rem;
-    color: #313335;
     width: 100%;
 }
 
 .navigation {
     display: flex;
     justify-content: center;
-    /* padding: 8px 0; */
-    padding: .8rem 0;
     margin: 0 auto;
 }
 
 a.nav-button {
     background-color: white;
     color: #313335;
-    padding: .8rem;
     text-align: center;
     text-decoration: none;
     font-family: 'Shadows Into Light', cursive;
@@ -156,11 +152,20 @@ a.nav-button:hover {
 
 .about-section .about-box .about-box-headers {
     font-size: 4.2rem;
+    padding: .8rem 0;
+    font-weight: bold;
 }
 
 .about-section .about-box li {
-    font-size: 2.3rem;
+    font-size: 3rem;
+    padding: 0 0 .2rem 0;
 }
+
+.about-section .about-box li:hover {
+    /* color: #63CB5D; */
+    font-size: 4rem;
+ 
+  }
 
 
 /************* ourTeam Body *************/
@@ -178,14 +183,15 @@ a.nav-button:hover {
 } 
 
 .welcome-section .welcome-text {
-    padding: 38rem 0;
+    padding: 42rem 0;
 }
 
 .welcome-section .welcome-text #ourTeam-header {
-    font-size: 3.4rem;
+    font-size: 4rem;
     color: #ffffff;
     /* filter: brightness(100%); */
     text-align: center;
+    padding: 0 9%;
 }
 
 .ourTeam-section {
@@ -193,33 +199,56 @@ a.nav-button:hover {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: #d9d9d9;
+    padding: 6rem 5% 4rem;
 }
 
 .ourTeam-section .teammate-box {
     display: flex;
     flex-direction: column;
     width: 27%;
-    margin: 0 auto;
+    padding: .8rem;
+    margin: 2.4rem auto;
+    background-color: white;
+    border-radius: 15%;
+    border: 2px solid #313335;
+}
+
+.ourTeam-section .teammate-box:hover {
+    background-color: #313335;
+    border-radius: 15%;
+    color: white;
 }
 
 .ourTeam-section .teammate-box .teammate-img {
     width: 70%;
     height: auto;
     border-radius: 50%;
-    margin: 8px auto;
+    margin: .8rem auto;
+}
+
+.ourTeam-section .teammate-box .teammateName {
+    font-size: 4rem;
+    text-align: center;
+    padding: .4rem;
+}
+
+.ourTeam-section .teammate-box .teammateRole {
+    font-size: 3.2rem;
+    text-align: center;
+    padding: .4rem;
 }
 
 .ourTeam-section .teammate-box .about-me {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-family: 'Shadows Into Light', cursive;
     text-align: center;
-    margin: 8px 0;
+    padding: .4rem 4% .4rem;
 }
 
 
 /************* Footer *************/
 footer {
-	line-height: 2rem;
+	line-height: 3rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -227,6 +256,7 @@ footer {
     padding: 1rem;
     color: white;
     background-color: #313335;
+    font-size: 2.2rem;
 }
 
 /************* 1000 Pixels *************/
