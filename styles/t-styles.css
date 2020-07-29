@@ -230,12 +230,14 @@ a.nav-button:hover {
     font-size: 4rem;
     text-align: center;
     padding: .4rem;
+    font-weight: bold;
 }
 
 .ourTeam-section .teammate-box .teammateRole {
     font-size: 3.2rem;
     text-align: center;
     padding: .4rem;
+    font-weight: bold;
 }
 
 .ourTeam-section .teammate-box .about-me {
@@ -282,6 +284,13 @@ footer {
 
 /************* ourTeam *************/
 
+.welcome-section .welcome-text {
+    padding: 30rem 0;
+}
+
+.ourTeam-section .teammate-box {
+    width: 44%;
+}
 
 }
 
