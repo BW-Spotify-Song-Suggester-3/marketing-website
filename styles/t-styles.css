@@ -155,11 +155,18 @@ a.nav-button:hover {
 
 .about-section .about-box .about-box-headers {
     font-size: 4.2rem;
+    padding: .8rem 0;
 }
 
 .about-section .about-box li {
-    font-size: 2.3rem;
+    font-size: 3rem;
+    padding: 0 0 .2rem 0;
 }
+
+.about-section .about-box li:hover {
+    color: #63CB5D;
+    font-size: 4rem;
+  }
 
 
 /************* ourTeam Body *************/
