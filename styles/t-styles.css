@@ -158,7 +158,7 @@ a.nav-button:hover {
 
 .about-section .about-box li {
     font-size: 3rem;
-    padding: 0 0 .2rem 0;
+    padding: 0 0 .8rem 0;
 }
 
 .about-section .about-box li:hover {
@@ -230,12 +230,14 @@ a.nav-button:hover {
     font-size: 4rem;
     text-align: center;
     padding: .4rem;
+    font-weight: bold;
 }
 
 .ourTeam-section .teammate-box .teammateRole {
     font-size: 3.2rem;
     text-align: center;
     padding: .4rem;
+    font-weight: bold;
 }
 
 .ourTeam-section .teammate-box .about-me {
@@ -263,10 +265,58 @@ footer {
 
 @media(max-width: 1000px){
 
+/************* About *************/
+
+.about-welcome-section .about-welcome-box {
+    padding: 16rem 10% 16rem 30%;
 }
 
-/************* 500 Pixels *************/
+.about-section {
+    padding: 1.2rem;
+}
+
+.about-section .about-box {
+    padding: .6rem 15% 2.4rem;
+    text-align: center;
+}
+
+/************* ourTeam *************/
+
+.welcome-section .welcome-text {
+    padding: 30rem 0;
+}
+
+.ourTeam-section .teammate-box {
+    width: 44%;
+}
+
+}
 
 @media(max-width: 500px){
-	
+
+/************* About *************/
+
+.header-section .navigation a {
+    font-size: 2.2rem;
+    width: 100%;
+}
+
+.about-welcome-section .about-welcome-box {
+    padding: 3rem 8% 6rem 16%;
+}
+
+.ourTeam-section .teammate-box {
+    width: 84%;
+}
+
+/************* ourTeam *************/
+    
+.welcome-section .welcome-text {
+    padding: 9rem 0;
+}
+
+.ourTeam-section {
+    padding: 2rem;
+}
+
 }
