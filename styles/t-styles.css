@@ -305,8 +305,18 @@ footer {
     padding: 3rem 8% 6rem 16%;
 }
 
-
+.ourTeam-section .teammate-box {
+    width: 84%;
+}
 
 /************* ourTeam *************/
-	
+    
+.welcome-section .welcome-text {
+    padding: 9rem 0;
+}
+
+.ourTeam-section {
+    padding: 2rem;
+}
+
 }
