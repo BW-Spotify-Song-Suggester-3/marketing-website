@@ -161,7 +161,7 @@ a.nav-button:hover {
 }
 
 .about-section .about-box li:hover {
-    color: #63CB5D;
+    /* color: #63CB5D; */
     font-size: 4rem;
   }
 
@@ -181,7 +181,7 @@ a.nav-button:hover {
 } 
 
 .welcome-section .welcome-text {
-    padding: 38rem 0;
+    padding: 42rem 0;
 }
 
 .welcome-section .welcome-text #ourTeam-header {
@@ -205,9 +205,10 @@ a.nav-button:hover {
     flex-direction: column;
     width: 27%;
     padding: .8rem;
-    margin: .8rem auto;
+    margin: 2.4rem auto;
     background-color: white;
     border-radius: 15%;
+    border: 2px solid #313335;
 }
 
 .ourTeam-section .teammate-box:hover {
@@ -245,7 +246,7 @@ a.nav-button:hover {
 
 /************* Footer *************/
 footer {
-	line-height: 2rem;
+	line-height: 3rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -253,6 +254,7 @@ footer {
     padding: 1rem;
     color: white;
     background-color: #313335;
+    font-size: 2.2rem;
 }
 
 /************* 1000 Pixels *************/
