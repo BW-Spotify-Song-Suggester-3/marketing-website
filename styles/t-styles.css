@@ -59,7 +59,7 @@ html, body {
     height: 100%;
     font-family: 'Shadows Into Light', cursive;
     font-size: 62.5%;
-    color: #313335;
+    color: black;
 }
 
 /************* NAV BAR *************/
@@ -189,6 +189,7 @@ a.nav-button:hover {
     color: #ffffff;
     /* filter: brightness(100%); */
     text-align: center;
+    padding: 0 8%;
 }
 
 .ourTeam-section {
@@ -196,27 +197,49 @@ a.nav-button:hover {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: #d9d9d9;
+    padding: 6rem 5% 4rem;
 }
 
 .ourTeam-section .teammate-box {
     display: flex;
     flex-direction: column;
     width: 27%;
-    margin: 0 auto;
+    padding: .8rem;
+    margin: .8rem auto;
+    background-color: white;
+    border-radius: 15%;
+}
+
+.ourTeam-section .teammate-box:hover {
+    background-color: #313335;
+    border-radius: 15%;
+    color: white;
 }
 
 .ourTeam-section .teammate-box .teammate-img {
     width: 70%;
     height: auto;
     border-radius: 50%;
-    margin: 8px auto;
+    margin: .8rem auto;
+}
+
+.ourTeam-section .teammate-box .teammateName {
+    font-size: 3.4rem;
+    text-align: center;
+    padding: .4rem;
+}
+
+.ourTeam-section .teammate-box .teammateRole {
+    font-size: 2.8rem;
+    text-align: center;
+    padding: .4rem;
 }
 
 .ourTeam-section .teammate-box .about-me {
     font-size: 2.2rem;
     font-family: 'Shadows Into Light', cursive;
     text-align: center;
-    margin: 8px 0;
+    padding: .2rem 4% .4rem;
 }
 
 
