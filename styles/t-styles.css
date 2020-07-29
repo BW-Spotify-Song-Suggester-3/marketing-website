@@ -158,7 +158,7 @@ a.nav-button:hover {
 
 .about-section .about-box li {
     font-size: 3rem;
-    padding: 0 0 .2rem 0;
+    padding: 0 0 .8rem 0;
 }
 
 .about-section .about-box li:hover {
@@ -269,8 +269,6 @@ footer {
 
 .about-welcome-section .about-welcome-box {
     padding: 16rem 10% 16rem 30%;
-    display: flex;
-    flex-direction: column;
 }
 
 .about-section {
@@ -297,6 +295,17 @@ footer {
 @media(max-width: 500px){
 
 /************* About *************/
+
+.header-section .navigation a {
+    font-size: 2.2rem;
+    width: 100%;
+}
+
+.about-welcome-section .about-welcome-box {
+    padding: 3rem 8% 6rem 16%;
+}
+
+
 
 /************* ourTeam *************/
 	
