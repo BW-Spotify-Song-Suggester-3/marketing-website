@@ -52,11 +52,6 @@ table {
 /************* General *************/
 
 
-/* * { 
-    outline: 1px solid red;
-    outline-offset: -1px;
-} */
-
 h1 {
 	font-size: 3.6rem;
 	line-height: 4rem;
@@ -76,12 +71,10 @@ p {
 li {
 	font-size: 2rem;
 	line-height: 2.8rem;
-	/* list-style: disc; */
 }
 
 .container {
     width: 100%;
-    /* max-width: 1080px; */
     margin: 0 auto;
 }
 
@@ -102,7 +95,10 @@ span {
 	font-weight: bold;
 }
 
+
 /************* NAV BAR *************/
+
+
 .nav-bar .navigation li{
 	width: 100%;
 }
@@ -117,7 +113,6 @@ span {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-
 }
 
 a.nav-button {
@@ -165,6 +160,7 @@ a.nav-button:hover {
 	padding: 1rem;
 	margin: 30rem 1rem 40rem 13rem;
 }
+
 .callToAction-container h1 {
 	padding: 3rem 3rem;
 	display: flex;
@@ -190,7 +186,6 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* margin: 1rem 1rem 0 1rem; */
     padding: 1rem;
     color: white;
     background-color: #313335;
@@ -198,7 +193,9 @@ footer {
 }
 
 
+
 /************* Coming Soon PAGE *************/
+
 
 
 /************* Header *************/
@@ -215,8 +212,6 @@ footer {
     justify-content: center;
 } 
 
-
-
 .welcome-section .welcome-text {
     padding: 30rem 0;
 }
@@ -224,12 +219,12 @@ footer {
 .welcome-section .welcome-text {
     font-size: 3.4rem;
     color: #ffffff;
-    /* filter: brightness(100%); */
-	text-align: center;
-	
+	text-align: center;	
 }
 
-/* Body */
+
+/**************** Body *******************/
+
 
 .coming-soon-MC-container {
 	width: 60%;
@@ -247,18 +242,24 @@ footer {
 .coming-soon-MC-container ul {
 	margin-bottom: 3rem;
 }
+
 .coming-soon-MC-container ul li {
 	text-align: left;
 }
 
-/* Footer */
+
+/************** Footer ***************/
+
 
 #CS-footer {
 	border-top: 1px solid black;
 }
 
 
+
 /************* 1000 Pixels *************/
+
+
 
 @media(max-width: 1000px){
 
@@ -267,6 +268,7 @@ footer {
 	.callToAction {
 		width: 100%;
 	}
+
 	.callToAction-container {
 		display: flex;
 		flex-direction: column;
@@ -287,8 +289,8 @@ footer {
 
 
 
-
 	/* Coming Soon Page */
+
 
 	/* Hero Image */
 	.welcome-text {
@@ -296,13 +298,18 @@ footer {
 	}
 }
 
+
 /************* 500 Pixels *************/
+
 
 @media(max-width: 500px){
 	
+
 	/* Landing Page */
 
+
 	/* Nav Bar */
+
 
 	.navigation {
 		margin: 0 auto;
@@ -312,6 +319,7 @@ footer {
 		font-size: 2.2rem;
 		width: 100%;
 	}
+
 	
 	/* Main Content */
 	
@@ -340,14 +348,12 @@ footer {
 		margin-left: 1.5rem;
 	}
 
-	/* Coming Soon Page */
 
+
+	/* Coming Soon Page */
 	
 
 	.welcome-section .welcome-text {
 		padding: 14rem 0;
 	}
-	
-
-
 }
